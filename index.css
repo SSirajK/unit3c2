@@ -1,0 +1,40 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-size: large;
+    padding: 10px;
+}
+a{
+    margin: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+}
+i{
+    color: white;
+    font-size: x-large;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+}
+#menu img{
+    border-radius: 5px;
+    width: 80%;
+}
+#items{
+    box-shadow: 9px 10px 56px 1px rgba(0,0,0,0.29) inset;
+    padding: 10px 0px 10px 20px;
+    margin: 10px;
+}
+#addtocart:hover{
+    background-color: blanchedalmond;
+    color: rgb(31, 23, 23);
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+}
